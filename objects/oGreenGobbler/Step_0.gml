@@ -16,7 +16,7 @@ if global.isTransitioning
 		global.enterLeft = false;
 		global.enterRight = false;
 		global.isTransitioning = false;
-		global.transitionTimer = 2;
+		global.transitionTimer = 1;
 	}
 }
 

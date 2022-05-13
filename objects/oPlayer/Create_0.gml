@@ -48,6 +48,7 @@ mouseY = mouse_y;
 hookActive = false;
 haveHook = false;
 haveSword = false;
+haveGun = false;
 
 enteredShip = false;
 enteredGobbler = false;
