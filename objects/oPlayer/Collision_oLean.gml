@@ -6,6 +6,6 @@ enterLean = true;
 if enterLean and keyboard_check(ord("E"))
 {
 	enteredLean = true;
-	instance_change(oLeanMan, true);
+	instance_change(oLeanMan, false);
 	instance_destroy(other);
 }

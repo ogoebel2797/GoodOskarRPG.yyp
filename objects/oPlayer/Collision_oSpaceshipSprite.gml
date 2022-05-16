@@ -5,6 +5,6 @@ enterShip = true;
 if enterShip and keyboard_check(ord("E"))
 {
 	enteredShip = true;
-	instance_change(oSpaceship, true);
+	instance_change(oSpaceship, false);
 	instance_destroy(other);
 }

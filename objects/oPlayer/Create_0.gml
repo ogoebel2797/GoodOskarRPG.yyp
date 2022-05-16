@@ -30,7 +30,7 @@ xVector = 0;
 isInvincible = false;
 
 //health points
-hp = 6
+global.hp = 6
 
 //level timer
 levelTimer = 100;
@@ -65,7 +65,8 @@ enum states
 	walking,
 	attack,
 	idle,
-	shoot
+	shoot,
+	shootwalking
 }
 
 state = states.idle;
@@ -74,8 +75,9 @@ state_array[states.walking] = StatePlayerWalking;
 state_array[states.attack] = StatePlayerAttack;
 state_array[states.idle] = StatePlayerIdle;
 state_array[states.shoot] = StatePlayerShoot;
+state_array[states.shoot] = StatePlayerShootWalking;
 
 sprite_array[states.walking] = sPlayerWalking;
 sprite_array[states.attack] = sPlayerAttackSlash;
 sprite_array[states.idle] = sPlayerIdle;
-sprite_array[states.shoot] = sPlayerShoot;
+sprite_array[states.shoot] = sPlayerShootWalking;

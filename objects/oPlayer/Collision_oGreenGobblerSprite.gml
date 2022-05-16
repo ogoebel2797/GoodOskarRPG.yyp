@@ -6,6 +6,6 @@ enterGobbler = true;
 if enterGobbler and keyboard_check(ord("E"))
 {
 	enteredGobbler = true;
-	instance_change(oGreenGobbler, true);
+	instance_change(oGreenGobbler, false);
 	instance_destroy(other);
 }

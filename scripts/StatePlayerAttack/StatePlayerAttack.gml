@@ -20,7 +20,7 @@ function StatePlayerAttack()
 		state = states.walking;
 	}
 
-	if (shooting = true)
+	if (haveGun = true)
 	{
 		state = states.shoot;
 	}

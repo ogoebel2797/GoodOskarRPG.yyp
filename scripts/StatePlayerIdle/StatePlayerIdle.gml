@@ -15,7 +15,7 @@ function StatePlayerIdle()
 		state = states.attack;
 	}
 	
-	if (shooting = true)
+	if (haveGun = true)
 	{
 		state = states.shoot;
 	}

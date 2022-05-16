@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if keyboard_check_pressed(vk_shift)
+{
+	instance_change(oPlayer, false);
+}
+
+
+
 global.xPos = x;
 global.yPos = y;
 
@@ -12,7 +19,7 @@ if global.isTransitioning
 		global.enterLeft = false;
 		global.enterRight = false;
 		global.isTransitioning = false;
-		global.transitionTimer = 2;
+		global.transitionTimer = 1;
 	}
 }
 

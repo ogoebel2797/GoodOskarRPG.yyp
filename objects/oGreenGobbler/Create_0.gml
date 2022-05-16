@@ -1,5 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+global.xPos = x;
+global.yPos = y;
+global.isTransitioning = false;
+global.transitionTimer = 1;
+global.enterRight = false;
+global.enterLeft = false;
+global.col = 0;
+global.row = 0;
 
 // how many pixels per frame you want our player to move
 xSpeed = 5;
