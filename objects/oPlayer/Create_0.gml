@@ -75,9 +75,10 @@ state_array[states.walking] = StatePlayerWalking;
 state_array[states.attack] = StatePlayerAttack;
 state_array[states.idle] = StatePlayerIdle;
 state_array[states.shoot] = StatePlayerShoot;
-state_array[states.shoot] = StatePlayerShootWalking;
+state_array[states.shootwalking] = StatePlayerShootWalking;
 
 sprite_array[states.walking] = sPlayerWalking;
 sprite_array[states.attack] = sPlayerAttackSlash;
 sprite_array[states.idle] = sPlayerIdle;
-sprite_array[states.shoot] = sPlayerShootWalking;
+sprite_array[states.shoot] = sPlayerShoot;
+sprite_array[states.shootwalking] = sPlayerShootWalking;

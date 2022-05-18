@@ -25,7 +25,7 @@ invTimer = 2;
 
 
 enteredShip = false;
-sliding = false;
+global.sliding = false;
 slideTimer = 1;
 
 enum lstates

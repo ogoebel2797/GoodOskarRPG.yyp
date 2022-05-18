@@ -9,4 +9,9 @@ function StateLeanIdle()
 	{
 		state = lstates.lwalking;
 	}
+
+	if (sliding)
+	{
+		state = lstates.lsliding;
+	}
 }

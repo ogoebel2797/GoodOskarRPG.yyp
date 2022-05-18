@@ -14,4 +14,9 @@ function StateLeanWalking()
 	{
 		state = lstates.lidle;
 	}
+
+	if (sliding)
+	{
+		state = lstates.lsliding;
+	}
 }

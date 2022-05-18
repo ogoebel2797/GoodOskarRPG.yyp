@@ -7,11 +7,11 @@ if global.enterLeft
 else if global.enterRight
 {
 	oPlayer.x = 31;
-	oPlayer.y = 671
+	oPlayer.y = 863;
 }
 
 else
 {
 	oPlayer.x = 31;
-	oPlayer.y = 671;
+	oPlayer.y = 863;
 }

@@ -25,15 +25,15 @@ sprite_index = sprite_array[state];
 
 if dash
 {
-	dashing = true;
+	global.dashing = true;
 }
 
-if dashing
+if global.dashing
 {
 	dashTimer -= 1/room_speed;
 	if dashTimer <= 0
 	{
-		dashing = false;
+		global.dashing = false;
 		dashTimer = 0.3;
 	}
 	if (!place_empty(x + xVector, y))

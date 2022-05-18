@@ -49,6 +49,21 @@ if haveGun = true
 	shooting = true;
 }
 
+if haveGun = false
+{
+	shooting = false;
+}
+
+if haveSword = true
+{
+	attack = true;
+}
+
+if haveSword = false
+{
+	attack = false;
+}
+
 if haveGun = true
 {
 	if (mouse_check_button_pressed(mb_left))
@@ -57,9 +72,27 @@ if haveGun = true
 		}
 }
 
+if haveSword = true
+{
+	if keyboard_check_pressed(vk_alt)
+		{
+			attack = true;
+		}
+}
+
 if haveGun = false
 {
 	shoot = false;
+}
+
+if haveGun = true
+{
+	haveSword = false;
+}
+
+if haveSword = true
+{
+	haveGun = false;
 }
 
 if shoot

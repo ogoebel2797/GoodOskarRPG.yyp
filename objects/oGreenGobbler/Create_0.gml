@@ -36,7 +36,8 @@ hp = 8
 invTimer = 2;
 
 enteredShip = false;
-dashing = false;
+global.dashing = false;
+global.dash = false;
 dashTimer = 0.1;
 
 enum gstates

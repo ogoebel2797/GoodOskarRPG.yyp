@@ -6,12 +6,12 @@ if global.enterLeft
 
 else if global.enterRight
 {
-	oPlayer.x = 70;
+	oPlayer.x = 100;
 	oPlayer.y = 850;
 }
 
 else
 {
-	oPlayer.x = 70;
+	oPlayer.x = 100;
 	oPlayer.y = 850;
 }

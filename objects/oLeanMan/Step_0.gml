@@ -23,17 +23,17 @@ if global.isTransitioning
 script_execute(state_array[state]);
 sprite_index = sprite_array[state];
 
-if slide
+if global.slide
 	{
-		sliding = true;
+		global.sliding = true;
 	}
 
-if sliding
+if global.sliding
 {
 	slideTimer -= 1/room_speed;
 	if slideTimer <= 0
 	{
-		sliding = false;
+		global.sliding = false;
 		xSpeed = 5;
 		ySpeed = 5;
 		slideTimer = 1;
