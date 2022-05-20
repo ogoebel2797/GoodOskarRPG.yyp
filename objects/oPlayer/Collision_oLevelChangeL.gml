@@ -7,7 +7,7 @@ if (!global.isTransitioning)
 	
 	if global.enterLeft
 	{
-		global.createPersistentID = 0;
+		global.createedonjectID = 0;
 		global.col = global.col - 1;
 		room_goto(asset_get_index("r" + string(global.col) + string(global.row)));
 	}

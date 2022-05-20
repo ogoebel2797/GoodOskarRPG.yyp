@@ -15,10 +15,11 @@ function EnemyHurt()
 
 function EnemyDeath()
 {
-	array_push(oHUD.objectsDestroyed, other.persistentID)
-	instance_destroy(other);
+	array_push(oHUD.objectsDestroyed, other.objectID);
 	if (random_range(0,10) > 4)
 	{
 		instance_create_layer(other.x, other.y, "Instances", oCoin);
 	}
+	instance_destroy(other);
 }
+

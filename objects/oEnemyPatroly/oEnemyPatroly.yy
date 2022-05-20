@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oPersistency",
+    "path": "objects/oPersistency/oPersistency.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

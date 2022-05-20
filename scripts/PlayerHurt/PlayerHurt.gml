@@ -20,11 +20,13 @@ function PlayerHurt()
 //restart level for player death
 function PlayerDeath()
 {
+	oHUD.objectsDestroyed = [];
+	global.createdObjectID = 0;
 	oHUD.levelTimer = 100;
-	global.hp = 6;
+	global.hp = 5;
 	global.row = 0;
 	global.col = 0;
-	instance_change(oPlayer, false) 
+	instance_change(oPlayer, false);
 	instance_destroy(other);
 	room_goto(asset_get_index("r" + string(global.col) + string(global.row)));
 }
