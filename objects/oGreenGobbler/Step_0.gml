@@ -23,7 +23,7 @@ if global.isTransitioning
 script_execute(state_array[state]);
 sprite_index = sprite_array[state];
 
-if dash
+if global.dash
 {
 	global.dashing = true;
 }

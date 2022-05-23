@@ -1,5 +1,5 @@
 //objects
 
 draw_text(500,32, "The Adventures Of");
-draw_text(1,780, "Press D To");
-draw_text(1,800, "Continue");
+draw_text(1400,780, "Hold Right");
+draw_text(1400,800, "To Begin");
