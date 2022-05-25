@@ -10,3 +10,5 @@ for(var i = 0; i <= array_length(oHUD.objectsDestroyed) - 1; ++i)
 		instance_destroy(id);
 	}
 }
+*/
+event_inherited();

@@ -10,18 +10,23 @@ function StatePlayerWalking()
 	
 	//conditions for leaving the state
 	
-	if (xDirection =0)
+	if (xDirection =0) & (haveGun = false) & (haveSword = false)
 	{
 		state = states.idle;
 	}
 
-	if (attack = true)
+	if (attack = true) & (haveGun = false) & (haveSword = true)
 	{
 		state = states.attack;
 	}
 
-	if (haveGun = true)
+	if (xDirection =0) & (haveGun = true) & (haveSword = false)
 	{
 		state = states.shoot;
+	}
+	
+	if (xDirection !=0) & (haveGun = true) & (haveSword = false)
+	{
+		state = states.shootwalking;
 	}
 }
