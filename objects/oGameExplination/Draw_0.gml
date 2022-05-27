@@ -13,16 +13,16 @@ draw_text(32,550, "When You See Mr. Squiggles, RUN");
 
 //Controls
 draw_text(700,50, "Movement Controls:");
-draw_text(700,100, "W = Up");
-draw_text(700,150, "S = Down");
-draw_text(700,200, "A = Left");
-draw_text(700,250, "D = Right");
-draw_text(700,300, "Control = Dash (When Green Gobbler)");
-draw_text(700,350, "Shift = Slide (When Lean Man)");
-draw_text(700,400, "Shift = Exit (When In Spaceship)");
-draw_text(700,450, "Right Click = Grapple (When In Spaceship)");
+draw_text(700,100, "W = Up (On Keyboard & Mouse)");
+draw_text(700,150, "S = Down (On Keyboard & Mouse)");
+draw_text(700,200, "A = Left (On Keyboard & Mouse)");
+draw_text(700,250, "D = Right (On Keyboard & Mouse)");
+draw_text(700,300, "Left = Dash (When Green Gobbler)");
+draw_text(700,350, "Left = Slide (When Lean Man)");
+draw_text(700,400, "Shift = Exit (When In Spaceship) (On Keyboard & Mouse)");
+draw_text(700,450, "Right Click = Grapple (When In Spaceship)(On Keyboard & Mouse)");
 draw_text(700,500, "Other Controls:");
-draw_text(700,550, "E = Interact");
-draw_text(700,600, "Left Click = Shoot (When Player/In Spaceship)");
-draw_text(700,650, "Alt = Attack (When Player)");
-draw_text(700,700, "Hold D To Begin!");
+draw_text(700,550, "2 = Interact");
+draw_text(700,600, "Left Click = Shoot (When Player/In Spaceship) (On Keyboard & Mouse)");
+draw_text(700,650, "Left = Attack (When Player)");
+draw_text(700,700, "Hold Right To Begin!");

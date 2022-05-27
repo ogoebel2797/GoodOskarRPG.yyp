@@ -22,7 +22,7 @@ function PlayerDeath()
 {
 	oHUD.objectsDestroyed = [];
 	global.createdObjectID = 0;
-	oHUD.levelTimer = 100;
+	oHUD.levelTimer = 200;
 	global.hp = 5;
 	global.row = 0;
 	global.col = 0;
